@@ -1,0 +1,12 @@
+ # dataset path
+path: H:\02_YOLO\datasets
+train: ./images/train
+val: ./images/test
+test: ./images/test
+
+# number of classes
+nc: 15
+
+# class names
+names: ['car', 'Truck', 'Van', 'Long Vehicle','Bus', 'Airliner', 'Propeller Aircraft', 'Trainer Aircraft', 'Chartered Aircraft', 'Fighter Aircraft',\
+        'Others', 'Stair Truck', 'Pushback Truck', 'Helicopter', 'Boat']

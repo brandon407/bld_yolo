@@ -1,0 +1,36 @@
+# Ultralytics YOLOv8核心库（含所有检测/分类/分割逻辑）
+ultralytics>=8.0.0
+
+# PyTorch核心（需匹配CUDA版本，CPU/GPU通用）
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 图像处理核心
+opencv-python>=4.6.0
+numpy>=1.21.6
+Pillow>=7.1.2
+
+# 基础工具（配置/进度/网络/计算）
+PyYAML>=5.3.1
+tqdm>=4.64.0
+requests>=2.23.0
+scipy>=1.4.1
+psutil>=5.8.0
+py-cpuinfo>=8.0.0
+
+# 可视化基础
+matplotlib>=3.3.0
+# ===================== 模型导出相关（如ONNX/TensorRT） =====================
+onnx>=1.14.0                # ONNX模型标准库
+
+onnxruntime>=1.15.0         # ONNX推理验证（CPU版）
+
+# ===================== 可视化/数据分析 =====================
+seaborn>=0.11.0             # 更美观的图表
+plotly>=5.0.0               # 交互式可视化
+pandas>=1.1.4               # 批量数据处理
+scikit-learn>=0.24.2        # 评估指标计算
+
+# ===================== 跟踪/高级后处理 =====================
+lapx>=0.5.0                 # 多目标跟踪（ByteTrack依赖）
+supervision>=0.15.0         # 检测结果可视化/批量处理
